@@ -1,0 +1,19 @@
+# .github/workflows/release-devices.yaml
+name: Release devices
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  panther:   # Pixel 7 — the dirty one
+    uses: ./.github/workflows/release-single.yaml
+    with:
+      device-id: panther
+      magisk-preinit-device: sda15
+  shiba:     # Pixel 8 — the clean one
+    uses: ./.github/workflows/release-single.yaml
+    with:
+      device-id: shiba
+      magisk-preinit-device: sda10
