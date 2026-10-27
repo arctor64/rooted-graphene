@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "full": {
+    "location_ota": "https://github.com/arctor64/rooted-graphene/releases/download/2026102101/akita-2026102101-6ed8eaf-magisk-v30.7.zip",
+    "location_csig": "https://github.com/arctor64/rooted-graphene/releases/download/2026102101/akita-2026102101-6ed8eaf-magisk-v30.7.zip.csig"
+  }
+}
