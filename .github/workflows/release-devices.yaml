@@ -13,9 +13,9 @@ jobs:
     with:
       device-id: panther
       magisk-preinit-device: sda15
-  shiba:
+  akita:
     uses: ./.github/workflows/release-single.yaml
-    secrets: inherit
-    with:
-      device-id: shiba
-
+    secrets: inherit          # <-- the missing rite
+      with:
+      device-id: akita
+      magisk-preinit-device: sda15
