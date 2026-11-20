@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/arctor64/rooted-graphene/releases/download/2026111301/panther-2026111301-6ed8eaf-magisk-v30.7.zip",
-    "location_csig": "https://github.com/arctor64/rooted-graphene/releases/download/2026111301/panther-2026111301-6ed8eaf-magisk-v30.7.zip.csig"
+    "location_ota": "https://github.com/arctor64/rooted-graphene/releases/download/2026111801/panther-2026111801-6ed8eaf-magisk-v30.7.zip",
+    "location_csig": "https://github.com/arctor64/rooted-graphene/releases/download/2026111801/panther-2026111801-6ed8eaf-magisk-v30.7.zip.csig"
   }
 }
